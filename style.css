@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+    color:rgb(36, 36, 36);
+}
+
+button{
+    border: 0;
+    cursor:pointer;
+}
+
+ul, li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.navication{
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    padding : 0px 10px;
+}
+
+.menu__logo{
+    font-size: 30px;
+}
+
+.menu>li{
+    padding : 20px;
+    font-weight: 600;
+    cursor: pointer;   
+}
+
+.menu__link:hover{
+    color : red;
+}
+
+.menu{
+    list-style: none;
+    display:flex;
+    align-items: center;
+}
+
+.sub-menu{
+    display: flex;
+}
